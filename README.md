@@ -52,20 +52,37 @@ git clone https://github.com/cyber-keny/Gerador.git
 ---
 
 ### 🔹 2. Acesse a pasta do projeto
+
 cd seu-repo
 
 ### 🔹 3. Instale as dependências
-Backend:
+
+Back-end:
 cd backend
 npm install
 
-Frontend
-cd ../frontend
+Front-end:
+cd ..
+cd front-end
 npm install
 
 ### 🔹 4. Configure o arquivo .env
+
 Na pasta do backend, crie um arquivo .env baseado no .env.example:
 API_KEY=sua_chave_aqui
-cd frontend
+
+### 🔹 5. Rodando o font-end
+
+cd front-end
 npm run dev
 
+### 🔹 6. Rodando o back-end
+
+cd back-end
+npm start
+
+### 🔹 7. prints do projeto
+Tela inicial do projeto:
+   ![alt text](./prints-project/image-project-inicial.png)
+Tela de resposta:
+   ![alt text](./prints-project/image-project-response.png)
