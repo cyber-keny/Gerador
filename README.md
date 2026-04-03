@@ -69,5 +69,3 @@ API_KEY=sua_chave_aqui
 cd frontend
 npm run dev
 
-### 🔹 7. Acesse no navegador
-http://localhost:3000
