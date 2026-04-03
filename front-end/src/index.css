@@ -1,3 +1,4 @@
+/*Style body*/
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -8,59 +9,19 @@ body {
 h1{
   margin-top: 5%;
 }
-/* CONTAINER DO CHAT */
-.chat-container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 20px;
+ul{
+  margin: 0px 10px;
+  list-style: none;
 }
-
-/* AREA DAS MENSAGENS */
-.chat-box {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  overflow-y: auto;
-  padding-right: 5px;
+#text-preparo{
+  margin: 1px 30%;
 }
-
-/* SCROLL PERSONALIZADO */
-.chat-box::-webkit-scrollbar {
-  width: 6px;
+img{
+  align-items: center;
+  width: 200px;
+  margin-top: 2%;
+  margin-bottom: -2.5%;
 }
-
-.chat-box::-webkit-scrollbar-thumb {
-  background: #444;
-  border-radius: 10px;
-}
-
-/* MENSAGEM PADRÃO */
-.message {
-  max-width: 70%;
-  padding: 12px 16px;
-  border-radius: 20px;
-  backdrop-filter: blur(20px);
-  font-size: 14px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  animation: fadeIn 0.3s ease;
-}
-
-/* IA (ESQUERDA) */
-.message.ai {
-  align-self: flex-start;
-  background: rgba(255, 255, 255, 0.04);
-  border-bottom-left-radius: 5px;
-}
-
-/* USUÁRIO (DIREITA) */
-.message.user {
-  align-self: flex-end;
-  background: linear-gradient(135deg, #7b2ff7, #5f9cff);
-  border-bottom-right-radius: 5px;
-}
-
 /* INPUT AREA */
 .input-container {
   display: flex;

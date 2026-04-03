@@ -20,7 +20,7 @@ app.post("/gerar-receita", async (req, res) => {
     ?.flatMap(r => r.ingredientes || [])
     .join(", ");
 
-  const prompt = `const prompt =
+  const prompt = `
   Crie uma receita simples, prática e comum do dia a dia.
 
   ${proteina ? `A receita DEVE usar a proteína: ${proteina}` : ""}

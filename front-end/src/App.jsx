@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Form from "./components/Form";
+import Form from "./components/Form"
 import RecipeCard from "./components/RecipeCard";
 import { motion } from "framer-motion";
 
@@ -11,12 +11,13 @@ export default function App() {
   const salvo = localStorage.getItem("historicoReceitas");
   return salvo ? JSON.parse(salvo) : [];});
   
-  
+  console.log(RecipeCard);
+
   
 
   return (
     <div className="min-h-screen p-6 flex items-center justify-center">
-      <img src="../public/steve-pizza.png" alt="" />
+      <img id="img" src="./src/public/steve-pizza.png" alt=""></img>
       <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-emerald-700 text-center mb-8">
 
         🍽️ Gerador de Receitas IA
